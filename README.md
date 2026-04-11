@@ -11,6 +11,12 @@ Syntax for Variable Assignment:
 x = 5  # Assigning an integer value to the variable x
 y = "Hello"  # Assigning a string value to the variable y
 ```
+#### **Data type**
+```python
+"15"
+x = int("15") # convert string to integer - 15
+y = float("15") # convert string to float number - 15.0
+```
 
 #### **Arithematic operation**
 - `+` (Addition)
@@ -20,3 +26,4 @@ y = "Hello"  # Assigning a string value to the variable y
 - `//` (Floor Division)
 - `%` (Modulus)
 - `**` (Exponentiation)
+  Using these operations, we can make the 
