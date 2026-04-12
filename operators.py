@@ -1,4 +1,7 @@
+# python 
 print("Hello, myself")
+
+# Arithmetic operation
 
 a = 12
 a += 12 # a = a + 12
@@ -14,6 +17,16 @@ print(a)
 a //= 2.6
 print(a)
 
+#BODMAS principle (Brackets of Division, Multiplication, Addition and Subtraction)
+a = 5
+b = 7
+x = (a+b)*(b-a)
+print(x) # x = 24
+y = (x/6)*a
+print(y) # y = 20
+z = (((((((x + y)/11)*y)-y)/a)-x)+y)
+print(z) # z = 2
+
 
 a, b = 15, 19
 
@@ -23,7 +36,7 @@ print(f"a: {a}, b: {b}")
 if __name__ == "__main__":
     print("Hellow World")
 
-
+# Maximum numbers
 def my_numbers(*numbers):
     if len(numbers) == 0:
         return None
@@ -33,12 +46,6 @@ def my_numbers(*numbers):
             max_num = num
     return max_num
     
-print(my_numbers(3, 4, 5, 32, 15, 20, 22, 11,))
+print(my_numbers(3, 4, 5, 32, 15, 20, 22, 11,)) # '32' is the Maximum number in this list
 
-if __name__== "__main__":
-    n = int(input())
-    L = int(input()).split()
-    t = tuple(L)
-    
-print(hash(t))
 
