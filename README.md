@@ -1,4 +1,4 @@
-# python-Basics
+## python-Basics Functions
 ### First Python Program for starting
 ```python
 print("Hello, myself")
