@@ -18,7 +18,7 @@ x = int("15") # convert string to integer - 15
 y = float("15") # convert string to float number - 15.0
 ```
 
-#### **Arithematic operation**
+#### **Arithematic operators**
 - `+` (Addition)
 - `-` (Subtraction)
 - `*` (Multiplication)
@@ -26,4 +26,24 @@ y = float("15") # convert string to float number - 15.0
 - `//` (Floor Division)
 - `%` (Modulus)
 - `**` (Exponentiation)
-  Using these operations, we can make the 
+  Using these operations, we can make the
+
+#### **Assignment Operators**
+Assignment operators are used to assign values to variables:
+Operator Examples	
+=	  x = 5	x = 5	
++=	x += 3	x = x + 3	
+-=	x -= 3	x = x - 3	
+*=	x *= 3	x = x * 3	
+/=	x /= 3	x = x / 3	
+%=	x %= 3	x = x % 3	
+//=	x //= 3	x = x // 3	
+**=	x **= 3	x = x ** 3	
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3	
+:=	print(x := 3)	x = 3
+print(x)
+>>
