@@ -30,7 +30,8 @@ y = float("15") # convert string to float number - 15.0
 
 #### **Assignment Operators**
 Assignment operators are used to assign values to variables:
-Operator Examples	
+
+```#Operator Examples	
 =	  x = 5	x = 5	
 +=	x += 3	x = x + 3	
 -=	x -= 3	x = x - 3	
@@ -46,4 +47,4 @@ Operator Examples
 <<=	x <<= 3	x = x << 3	
 :=	print(x := 3)	x = 3
 print(x)
->>
+>>```
