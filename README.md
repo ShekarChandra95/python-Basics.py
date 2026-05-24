@@ -31,7 +31,7 @@ y = float("15") # convert string to float number - 15.0
 #### **Assignment Operators**
 Assignment operators are used to assign values to variables:
 
-```
+```python
 #Operator Examples
 =	  x = 5	x = 5	
 +=	x += 3	x = x + 3	
